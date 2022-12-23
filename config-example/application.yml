@@ -121,7 +121,7 @@ message:
     #生产者 需求状态
     ciStatusExchange: ci.status.exchange
     dtpReport: ci.ATSReceive.devqueue
-    ciDataSyncExchange: ""
+    ciDataSyncExchange: testTopic
     ciGuardExchange: ci.guard.exchange
     broadcastExchange: ci.datasync.exchange
     topicExchange: devops.plat.exchange

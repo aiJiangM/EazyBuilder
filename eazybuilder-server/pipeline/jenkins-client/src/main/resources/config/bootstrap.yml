@@ -14,7 +14,7 @@ spring:
       password: ${nacos.password}
       config:
         enabled: true
-        namespace: ${NACOS_SPACE:local}
+        namespace: ${NACOS_SPACE:devops}
         group: DEFAULT_GROUP
         server-addr: ${nacos.ip}:${nacos.port}
         file-extension: yml
@@ -30,7 +30,7 @@ spring:
             group: DEFAULT_GROUP
             refresh: true
       discovery:
-        namespace: ${NACOS_SPACE:local}
+        namespace: ${NACOS_SPACE:devops}
         enabled: true
         server-addr: ${nacos.ip}:${nacos.port}
         metadata:

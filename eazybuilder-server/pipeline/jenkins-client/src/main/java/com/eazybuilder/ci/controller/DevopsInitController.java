@@ -53,8 +53,6 @@ public class DevopsInitController extends CRUDRestController<DevopsInitServiceIm
     @Resource
     ProjectService projectService;
 
-    @Resource
-    QueryLocalData queryLocalData;
     @Value("${message.broadcastExchange}")
     public  String broadcastExchange;
 

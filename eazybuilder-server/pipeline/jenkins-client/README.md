@@ -206,7 +206,7 @@ gitlabApi:
 mirror:
   url: http://nexus3.eazybuilder.com/repository/maven-public/
 errorDingTalk:
-  emails: ""  
+  emails: test
   
 ````
 

@@ -81,7 +81,7 @@ public class ReceiveMsg {
     @Value("${message.dtpexchange}}")
     String broadcastExchange;
 
-    @Value("${message.ciDataSyncExchange}}")
+    @Value("${message.ciDataSyncExchange:test}")
     String ciDataSyncExchange;
 
     @Bean

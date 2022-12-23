@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.Map;
 
 import org.apache.commons.io.FileUtils;
-import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.DumperOptions;
@@ -19,11 +18,6 @@ public class RancherYamlClearUtil {
 	private static Logger logger = LoggerFactory.getLogger(RancherYamlClearUtil.class);
 
 	static final String[] LABLE_FIELDS = { "workload.user.cattle.io/workloadselector" };
-
-	@Test
-	public void doClean() {
-		clean("D:\\develop\yaml");
-	}
 
 	public static void clean(String home) {
 		FileUtils.listFiles(new File(home), new String[] { "yaml" }, true).forEach(file -> {

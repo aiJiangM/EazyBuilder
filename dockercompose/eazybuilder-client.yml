@@ -23,7 +23,7 @@ services:
       - NACOS_PORT=8848      
       - NACOS_USER=nacos    
       - NACOS_PASSWORD=nacos   
-      - NACOS_SPACE=pro         
+      - NACOS_SPACE=pro
     networks:
      - eazybuilder
 

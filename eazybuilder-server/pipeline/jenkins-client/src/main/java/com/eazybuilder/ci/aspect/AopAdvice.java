@@ -22,7 +22,7 @@ import java.util.Map;
 @Component
 public class AopAdvice {
 
-    @Value("${errorDingTalk.emails}")
+    @Value("${errorDingTalk.emails:test}")
     private  String emails;
 
     @Resource
